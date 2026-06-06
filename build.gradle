@@ -18,7 +18,9 @@ repositories {
 	mavenCentral()
 	maven { url = 'https://repo.spring.io/snapshot' }
 }
-
+bootJar{
+	archiveFileName = 'jenkins-ci-cd'
+}
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'

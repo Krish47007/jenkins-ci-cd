@@ -19,7 +19,7 @@ repositories {
 	maven { url = 'https://repo.spring.io/snapshot' }
 }
 bootJar{
-	archiveFileName = 'jenkins-ci-cd'
+	archiveFileName = 'jenkinsCiCd'
 }
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
